@@ -46,7 +46,6 @@ public class CheatActivity extends AppCompatActivity {
                 mAnswerTextView.setText(mAnswerIsTrue?R.string.true_button:R.string.false_button);
                 mIsCheater=true;
                 setAnswerShowResult(mIsCheater);
-
                 if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
                     int cx = mShowAnswer.getWidth() / 2;
                     int cy = mShowAnswer.getHeight() / 2;
